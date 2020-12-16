@@ -51,7 +51,7 @@ This patch of code, was foi used on front-end project Lucomed ["Learn more about
 
 
 
-details>
+<details>
 <summary>Portugues <img width="16px"  src="https://user-images.githubusercontent.com/59120094/102106566-80b96f80-3e0f-11eb-8fa3-5248a34b61e3.png"></img> </summary>
 
 
