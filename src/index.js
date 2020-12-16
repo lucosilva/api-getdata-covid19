@@ -1,8 +1,10 @@
+
+
 // method for geting data of the API
 async function respConvidAPI() {
     const URL_API = 'https://covid19-brazil-api.now.sh/api/report/v1/brazil';
     const METHOD = 'GET';
-
+    
     try {
         const response = await fetch(URL_API, {
             METHOD
@@ -14,7 +16,9 @@ async function respConvidAPI() {
     }
 };
 
+
 // method for printing data of respConvidAPI()
+
 async function printDataCovid() {
     const { data } = await respConvidAPI();
 
@@ -25,7 +29,7 @@ async function printDataCovid() {
         ultima_atualizacao: data.updated_at
     }
 
-    console.log(dataAll); //use the data
+    console.log(dataAll);
 };
 
 
