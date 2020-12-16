@@ -17,7 +17,7 @@ This repository contains a patch of code responsible for geting of the data of a
 
 ## License
 
-The datas useing this repository are provided of the "Covid19 Brazil API", The documentation is on the this url address: <br> https://covid19-brazil-api-docs.now.sh/ 
+The datas useing in this repository are provided through of the "Covid19 Brazil API", The documentation is on the this url address: <br> https://covid19-brazil-api-docs.now.sh/ 
 
 
 ## Instruction
