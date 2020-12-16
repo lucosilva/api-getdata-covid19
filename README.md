@@ -1,4 +1,6 @@
- ***
+# api-getdata-covid19
+
+***
 
  <img width="16px" src="https://user-images.githubusercontent.com/59120094/102106902-e60d6080-3e0f-11eb-8528-ccc9c4fd3030.png"></img> What language do you want to read?
  <br>
@@ -8,19 +10,58 @@
 <details>
 <summary>English <img width="16px" src="https://user-images.githubusercontent.com/59120094/102106902-e60d6080-3e0f-11eb-8528-ccc9c4fd3030.png"></img> </summary>
 
+## Introduction
+
+This repository contains a patch of code responsible for geting of the data of a API, the data was selected of the covid-19 on brazil.
+
+
+## License
+
+The datas useing this repository are provided of the "Covid19 Brazil API", The documentation is on the this url address: <br> https://covid19-brazil-api-docs.now.sh/ 
+
+
+## Instruction
+
+* The method "respConvidAPI" is responsible for fetching datas from of the API.
+
+* The method "printDataCovid" is responsible for printing the datas the that method before was got.
+
+* The method "init" initialization everything.
+
+## Programming Language
+
+* javascript (features - ECMA script 2019 or upper).
+
+## What is data to expect?
+
+ The data returned is:
+ * "cases" - number of cases on brazil actively.
+ * "confirmed" - confirmed from the start.
+ * "country" - the country, that on case is on brazil.
+ * "deaths" - deaths from the start.
+ * "recovered" - recovered from the start.
+ * "updated_at" - date of last updated.
+
+## Where was this used by the repository developer ?
+
+This patch of code, was foi used on front-end project Lucomed ["Learn more about"](https://github.com/lucosilva/frontend-lucomed).
+
 </details>
 
-<details>
+
+
+
+details>
 <summary>Portugues <img width="16px"  src="https://user-images.githubusercontent.com/59120094/102106566-80b96f80-3e0f-11eb-8fa3-5248a34b61e3.png"></img> </summary>
 
 
 ## Introdução
 
-Este repositório contem um modulo node.js, com códigos necessarios para obter os dados de uma API, os dados escolhindo foram do covid-19, especialmente do brasil.
+Este repositório contem um trecho de codigo responsavel por obter os dados de uma API, os dados escolhindo foram da covid-19, especialmente do brasil.
 
-## Liçença 
+## Licença 
 
-* Os dados ultilizados neste repostório, são providos da "Covid19 Brazil API", a documentação está neste endereço: https://covid19-brazil-api-docs.now.sh/ 
+* Os dados ultilizados neste repostório, são providos da "Covid19 Brazil API", a documentação está neste endereço: <br> https://covid19-brazil-api-docs.now.sh/ 
 
 ## Instruções
 
@@ -45,9 +86,9 @@ Este repositório contem um modulo node.js, com códigos necessarios para obter 
  * "recovered" - recuperados desde o inicio.
  * "updated_at" - data da ultima atualização.
 
-## onde foi usado pelo criador do repositório?
+## Onde isso foi usado pelo criador do repositório?
 
-Este treixo de código foi ultilizado no projeto (lucomed - hyperlink).
+Este trecho de código foi ultilizado no projeto front-end Lucomed ["saiba mais"](https://github.com/lucosilva/frontend-lucomed).
 
 </details>
 
